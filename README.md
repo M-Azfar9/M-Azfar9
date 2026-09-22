@@ -1,382 +1,703 @@
 <div align="center">
 
-# Muhammad Azfar
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:050505,50:071a17,100:00ff9c&text=MUHAMMAD%20AZFAR&fontColor=00ff9c&fontSize=48&fontAlignY=38&desc=AI%20ENGINEER%20%2F%2F%20AGENTIC%20SYSTEMS%20%2F%2F%20SOFTWARE%20ENGINEERING&descAlignY=62&descSize=15&animation=twinkling" width="100%" />
 
-### AI Engineer · Agentic Systems · Software Engineering
+<a href="https://github.com/M-Azfar9">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=00FF9C&center=true&vCenter=true&width=850&lines=Building+AI+systems+that+reason%2C+retrieve%2C+act+%26+recover.;LangGraph+%7C+RAG+%7C+MCP+%7C+LLM+Engineering;From+LLM+prototypes+to+reliable+AI+systems.;Designing+agents+with+state%2C+tools%2C+memory+%26+guardrails.;%24+python+build_agent.py+--mode%3Dproduction" alt="Typing animation" />
+</a>
 
-**I build AI systems that reason, retrieve, use tools, recover from failure, and produce structured work.**
+<br>
 
-[![GitHub](https://img.shields.io/badge/GitHub-M--Azfar9-111827?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/M-Azfar9)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Muhammad%20Azfar-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/muhammad-azfar-687304288/)
-[![Focus](https://img.shields.io/badge/Focus-Agentic%20AI-00A67E?style=for-the-badge)](#03--current-focus)
+<a href="https://github.com/M-Azfar9">
+<img src="https://img.shields.io/badge/GITHUB-050505?style=for-the-badge&logo=github&logoColor=00ff9c&labelColor=050505&color=111111" />
+</a>
+<a href="https://www.linkedin.com/in/muhammad-azfar-687304288/">
+<img src="https://img.shields.io/badge/LINKEDIN-050505?style=for-the-badge&logo=linkedin&logoColor=00ff9c&labelColor=050505&color=111111" />
+</a>
+<img src="https://img.shields.io/badge/STATUS-BUILDING-050505?style=for-the-badge&logo=statuspage&logoColor=00ff9c&labelColor=050505&color=111111" />
+<img src="https://img.shields.io/badge/FOCUS-AGENTIC_AI-050505?style=for-the-badge&logo=openai&logoColor=00ff9c&labelColor=050505&color=111111" />
+
+<br><br>
+
+```text
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│   > INITIALIZING AZFAR_AI_PROFILE...                                      │
+│                                                                             │
+│   [✓] SOFTWARE ENGINEERING      [✓] LLM ENGINEERING                       │
+│   [✓] AGENTIC AI                [✓] RAG / RETRIEVAL                      │
+│   [✓] MCP / TOOLING             [✓] SYSTEM RELIABILITY                   │
+│   [✓] EVALUATION                [✓] PRODUCTION ARCHITECTURE              │
+│                                                                             │
+│   STATUS :: ONLINE                                                        │
+│   MODE   :: BUILDING                                                      │
+│   NEXT   :: RELIABLE AUTONOMOUS SYSTEMS                                   │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
 </div>
 
 ---
 
-## `01` · CURRENT STATE
+# `01` // IDENTITY
 
-> **Software Engineering student at NUST, building toward AI/ML and Agentic AI engineering.**
-
-My work sits at the intersection of **LLMs + software engineering + autonomous workflows**.
-
-I am especially interested in what comes after "call an LLM":
-
-* stateful agent workflows
-* supervisor / subagent architectures
-* RAG and evidence-grounded generation
-* MCP and tool-enabled AI systems
-* structured outputs and validation
-* retries, backoff, timeouts and failure recovery
-* observability and evaluation
-* turning prototypes into maintainable systems
-
-I started with application development and Flutter. Today, most of my exploration is focused on **AI systems engineering**.
-
----
-
-## `02` · THE WAY I THINK ABOUT AI SYSTEMS
-
-I don't think of an AI application as just a chatbot.
-
-I think of it as a **software system with a reasoning layer**:
-
-```text
-User Intent
-     ↓
-Route / Decompose
-     ↓
-Plan
-     ↓
-Execute ───────→ Tools / MCP / RAG / Web
-     ↓
-Observe
-     ↓
-Validate
-     ↓
-Recover if needed
-     ↓
-Structured Output
-     ↓
-Evaluate
+```bash
+$ whoami
 ```
 
-The goal is not simply to make an agent **smart**.
+> **Muhammad Azfar**
+> Software Engineering @ NUST
+> AI Engineer in progress — focused on **Agentic AI, LLM Engineering and intelligent software systems.**
 
-The goal is to make it **bounded, observable, testable and reliable**.
+I started from software development and application engineering.
 
----
-
-## `03` · CURRENT FOCUS
-
-| Area                    | What I'm exploring                                               |
-| ----------------------- | ---------------------------------------------------------------- |
-| **Agentic AI**          | Supervisors, subagents, routing, HITL, stateful workflows        |
-| **LangGraph**           | StateGraph, reducers, Send(), interrupts, persistence            |
-| **RAG**                 | Code RAG, retrieval pipelines, grounding, evaluation             |
-| **MCP**                 | Tool servers, resources, agent-tool interoperability             |
-| **LLM Engineering**     | Structured output, prompts, model routing, fallbacks             |
-| **Reliability**         | Retries, exponential backoff, jitter, timeouts, circuit breakers |
-| **Evaluation**          | Tracing, datasets, faithfulness, relevancy, correctness          |
-| **ML / DL**             | ML foundations, neural networks, CNNs, transfer learning         |
-| **Backend**             | Python, FastAPI, APIs, async workflows                           |
-| **Product Engineering** | Flutter, Firebase, PostgreSQL, production architecture           |
-
----
-
-## `04` · FLAGSHIP BUILDS
-
-### 🧠 Doxer AI
-
-**Autonomous documentation + engineering intelligence**
-
-A hierarchical multi-agent system for technical Q&A, live research, repository analysis, developer documentation, and requirements-driven SRS generation.
+Now I'm interested in the layer **above the application**:
 
 ```text
-Supervisor
-    │
-    ├── QA Agent
-    │
-    ├── Documentation Agent
-    │
-    └── SRS Agent
+                 ┌───────────────────────┐
+                 │      USER INTENT      │
+                 └───────────┬───────────┘
+                             │
+                             ▼
+                 ┌───────────────────────┐
+                 │   ROUTING / PLANNING  │
+                 └───────────┬───────────┘
+                             │
+                 ┌───────────┴───────────┐
+                 ▼                       ▼
+          ┌─────────────┐        ┌─────────────┐
+          │   AGENTS    │        │    TOOLS    │
+          └──────┬──────┘        └──────┬──────┘
+                 │                      │
+                 └──────────┬───────────┘
+                            ▼
+                 ┌───────────────────────┐
+                 │      OBSERVATION      │
+                 └───────────┬───────────┘
+                             ▼
+                 ┌───────────────────────┐
+                 │ VALIDATE / RECOVER    │
+                 └───────────┬───────────┘
+                             ▼
+                 ┌───────────────────────┐
+                 │   STRUCTURED OUTPUT   │
+                 └───────────────────────┘
 ```
 
-**Built around:**
+My goal is not:
 
-* LangGraph multi-agent orchestration
-* GitHub + filesystem + web research
-* code-aware RAG
-* AST-based symbol extraction
-* HITL requirements gathering
-* IEEE 830-oriented SRS generation
-* parallel document / diagram generation
-* grounding critique and bounded refinement
-* LangSmith tracing and evaluation
-* production-style resilience patterns
+> **"Make the LLM answer."**
 
-→ **[Explore Doxer AI](https://github.com/M-Azfar9/Doxer-AI)**
+It is:
+
+> **"Build the system around the LLM so that it can reason, act, fail, recover, and be evaluated."**
 
 ---
 
-### ⚙️ ZeroLM AgentMesh
+# `02` // CURRENT OPERATING SYSTEM
 
-**A model/tool orchestration experiment**
+```text
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         AI ENGINEERING STACK                                ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║                                                                              ║
+║  AGENTIC AI          ████████████████████████████████████  ACTIVE           ║
+║  LANGGRAPH           ████████████████████████████████████  ACTIVE           ║
+║  RAG                 ████████████████████████████████░░░░  ACTIVE           ║
+║  MCP                 ██████████████████████████████░░░░░░  ACTIVE           ║
+║  LLM ENGINEERING     ████████████████████████████████░░░░  ACTIVE           ║
+║  EVALUATION          ███████████████████████████░░░░░░░░░  EXPLORING        ║
+║  AI SECURITY         ██████████████████░░░░░░░░░░░░░░░░░░  EXPLORING        ║
+║  MODEL ROUTING       ██████████████████░░░░░░░░░░░░░░░░░░  EXPLORING        ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
 
-A cognitive orchestration layer that routes different tasks toward specialized AI capabilities instead of forcing one general-purpose model to do everything.
+### Core interests
+
+`Agentic AI` · `LangGraph` · `RAG` · `MCP` · `LLM Evaluation` · `Tool Calling` · `Structured Output` · `AI Reliability` · `Model Routing` · `AI Security`
+
+---
+
+# `03` // HOW I BUILD
+
+```text
+                    ┌─────────────────┐
+                    │    REQUEST      │
+                    └────────┬────────┘
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │    SUPERVISOR   │
+                    └────────┬────────┘
+                             │
+              ┌──────────────┼──────────────┐
+              ▼              ▼              ▼
+        ┌──────────┐   ┌──────────┐   ┌──────────┐
+        │ QA AGENT │   │ SRS AGENT│   │ DOC AGENT│
+        └────┬─────┘   └────┬─────┘   └────┬─────┘
+             │              │              │
+             └──────────────┼──────────────┘
+                            ▼
+                     ┌──────────────┐
+                     │  TOOLS / MCP │
+                     └──────┬───────┘
+                            ▼
+                     ┌──────────────┐
+                     │  VALIDATION  │
+                     └──────┬───────┘
+                            ▼
+                     ┌──────────────┐
+                     │   RESPONSE   │
+                     └──────────────┘
+```
+
+I treat an agent as a **software system**, not a prompt.
+
+That means thinking about:
+
+* explicit state
+* deterministic execution
+* bounded loops
+* retries and backoff
+* timeouts
+* structured outputs
+* human-in-the-loop
+* persistence
+* observability
+* evaluation
+* failure recovery
+
+---
+
+# `04` // ACTIVE LAB
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/%5B01%5D%20DOXER_AI-00FF9C?style=for-the-badge&labelColor=050505&color=050505" />
+<img src="https://img.shields.io/badge/%5B02%5D%20ZEROLM-00FF9C?style=for-the-badge&labelColor=050505&color=050505" />
+<img src="https://img.shields.io/badge/%5B03%5D%20FORIKAAM-00FF9C?style=for-the-badge&labelColor=050505&color=050505" />
+<img src="https://img.shields.io/badge/%5B04%5D%20MCP_LAB-00FF9C?style=for-the-badge&labelColor=050505&color=050505" />
+
+</div>
+
+---
+
+## `01` — DOXER AI
+
+### `AUTONOMOUS ENGINEERING INTELLIGENCE`
+
+<a href="https://github.com/M-Azfar9/Doxer-AI">
+<img src="https://img.shields.io/badge/ACCESS_REPOSITORY-%3E-050505?style=for-the-badge&logo=github&logoColor=00ff9c&color=111111" />
+</a>
+
+Doxer AI is a multi-agent engineering assistant designed around the idea that technical AI systems should be able to **research, reason, inspect, generate and validate**.
+
+```text
+                         ┌─────────────┐
+                         │  SUPERVISOR │
+                         └──────┬──────┘
+                                │
+             ┌──────────────────┼──────────────────┐
+             ▼                  ▼                  ▼
+        ┌──────────┐       ┌──────────┐       ┌──────────┐
+        │ QA AGENT │       │ DOC AGENT│       │ SRS AGENT│
+        └────┬─────┘       └────┬─────┘       └────┬─────┘
+             │                  │                  │
+             └──────────────────┼──────────────────┘
+                                ▼
+                    ┌─────────────────────┐
+                    │ WEB / GITHUB / MCP  │
+                    └──────────┬──────────┘
+                               ▼
+                    ┌─────────────────────┐
+                    │ VALIDATE / CRITIQUE │
+                    └─────────────────────┘
+```
+
+**System components**
+
+```text
+LangGraph
+    ├── Supervisor / Routing
+    ├── Stateful Subagents
+    ├── HITL Interrupts
+    ├── Persistence
+    └── Parallel Execution
+
+Research
+    ├── Web
+    ├── GitHub
+    ├── Repository Analysis
+    └── Code-aware Retrieval
+
+Generation
+    ├── Architecture
+    ├── API Documentation
+    ├── SRS
+    └── Diagrams
+
+Engineering
+    ├── Structured Output
+    ├── Retry / Backoff
+    ├── Validation
+    ├── Observability
+    └── Evaluation
+```
+
+---
+
+## `02` — ZEROLM AGENTMESH
+
+### `MODEL + TOOL ORCHESTRATION`
+
+<a href="https://github.com/M-Azfar9/ZeroLM-AgentMesh">
+<img src="https://img.shields.io/badge/ACCESS_REPOSITORY-%3E-050505?style=for-the-badge&logo=github&logoColor=00ff9c&color=111111" />
+</a>
+
+An exploration into **routing intelligence instead of blindly sending every task to the same model**.
+
+```text
+                    INPUT
+                      │
+                      ▼
+              ┌───────────────┐
+              │ INTENT ROUTER │
+              └───────┬───────┘
+                      │
+          ┌───────────┼───────────┐
+          ▼           ▼           ▼
+       MODEL A     MODEL B      TOOL
+          │           │           │
+          └───────────┼───────────┘
+                      ▼
+                 SYNTHESIS
+                      │
+                      ▼
+                   OUTPUT
+```
+
+---
+
+## `03` — FORIKAAM
+
+### `REAL-TIME SKILLED WORK MARKETPLACE`
+
+<a href="https://github.com/M-Azfar9/forikaam-marketplace">
+<img src="https://img.shields.io/badge/ACCESS_REPOSITORY-%3E-050505?style=for-the-badge&logo=github&logoColor=00ff9c&color=111111" />
+</a>
+
+A marketplace concept based on **reverse bidding** for skilled services.
+
+```text
+CUSTOMER
+   │
+   │ POST JOB
+   ▼
+┌───────────────┐
+│ MARKETPLACE   │
+└───────┬───────┘
+        │
+        ├──── BID ────► KARIGAR A
+        ├──── BID ────► KARIGAR B
+        └──── BID ────► KARIGAR C
+                         │
+                         ▼
+                    SELECTION
+                         │
+                         ▼
+                    FULFILLMENT
+```
+
+The project combines:
+
+`Flutter` · `Firebase` · `Realtime Systems` · `Marketplace Logic` · `Verification` · `Payments` · `Production Architecture`
+
+---
+
+## `04` — BROWSER HISTORY MCP
+
+### `LOCAL BROWSER INTELLIGENCE`
+
+<a href="https://github.com/M-Azfar9/mcp-browser-insights">
+<img src="https://img.shields.io/badge/ACCESS_REPOSITORY-%3E-050505?style=for-the-badge&logo=github&logoColor=00ff9c&color=111111" />
+</a>
+
+An MCP experiment that exposes local browser intelligence through structured tools.
+
+```text
+LOCAL BROWSER
+      │
+      ▼
+┌───────────────┐
+│   MCP SERVER  │
+└───────┬───────┘
+        │
+ ┌──────┼───────────────┐
+ ▼      ▼               ▼
+SEARCH  ANALYZE       DISCOVER
+HISTORY BOOKMARKS     DOMAINS
+```
+
+The idea:
+
+> **Give AI useful context without unnecessarily moving private data to the cloud.**
+
+---
+
+# `05` // AGENTIC AI LAB
+
+<a href="https://github.com/M-Azfar9/agentic-ai-langgraph">
+<img src="https://img.shields.io/badge/OPEN_AGENT_LAB-%3E-050505?style=for-the-badge&logo=github&logoColor=00ff9c&color=111111" />
+</a>
+
+```text
+                    AGENTIC SYSTEMS
+                          │
+        ┌─────────────────┼─────────────────┐
+        │                 │                 │
+        ▼                 ▼                 ▼
+   SEQUENTIAL          PARALLEL         CONDITIONAL
+        │                 │                 │
+        └─────────────────┼─────────────────┘
+                          ▼
+                      ITERATIVE
+                          │
+                          ▼
+                     PERSISTENT
+                          │
+                          ▼
+                     TOOL-CALLING
+                          │
+                          ▼
+                    MULTI-AGENT
+```
+
+Instead of only reading about agentic patterns, I implement them.
+
+---
+
+# `06` // ENGINEERING PRINCIPLES
+
+### `01` — BOUND THE AGENT
+
+```text
+while True:
+    agent.reason()
+```
+
+is not a production architecture.
+
+Agents need:
+
+`max_iterations` · `timeouts` · `termination conditions` · `sufficiency criteria`
+
+---
+
+### `02` — STATE > HIDDEN MAGIC
+
+If a workflow matters, represent it.
+
+```text
+State
+  │
+  ├── input
+  ├── context
+  ├── decisions
+  ├── intermediate results
+  ├── errors
+  └── final output
+```
+
+---
+
+### `03` — REASONING ≠ EXECUTION
+
+LLMs are useful for deciding **what should happen**.
+
+Deterministic software should handle **what can be deterministic**.
 
 ```text
 LLM
- ↓
-Intent Detection
- ↓
-Tool / Model Selection
- ↓
-Specialized Execution
- ↓
-Synthesis
+ │
+ ├── decide
+ ├── classify
+ ├── plan
+ └── select
+      │
+      ▼
+DETERMINISTIC CODE
+ │
+ ├── validate
+ ├── execute
+ ├── persist
+ └── recover
 ```
-
-→ **[Explore ZeroLM AgentMesh](https://github.com/M-Azfar9/ZeroLM-AgentMesh)**
 
 ---
 
-### 🇵🇰 ForiKaam
+### `04` — FAILURE IS A FEATURE
 
-**Reverse-auction marketplace for skilled work**
-
-A product concept built around real-time bidding between customers and skilled workers.
+Real systems encounter:
 
 ```text
-Job
- ↓
-Broadcast
- ↓
-Counter Bids
- ↓
-Selection
- ↓
-Verification
- ↓
-Fulfillment
+429 Rate Limit
+500 Provider Error
+Timeout
+Malformed JSON
+Invalid Tool Arguments
+Empty Retrieval
+Network Failure
+Model Unavailable
 ```
 
-The project combines product engineering, real-time systems, marketplace logic and practical mobile application architecture.
+So I actively explore:
 
-→ **[Explore ForiKaam](https://github.com/M-Azfar9/forikaam-marketplace)**
-
----
-
-### 🔌 Browser History MCP
-
-**Local browser intelligence through MCP**
-
-A privacy-focused MCP server exposing local browser history and bookmarks to AI assistants through structured tools.
-
-Examples:
-
-* search history
-* search bookmarks
-* inspect recent visits
-* discover top domains
-* summarize page visits
-* keep processing local
-
-→ **[Explore Browser History MCP](https://github.com/M-Azfar9/mcp-browser-insights)**
+`Retries` · `Exponential Backoff` · `Jitter` · `Timeouts` · `Circuit Breakers` · `Fallbacks` · `Validation`
 
 ---
 
-### 🧪 Agentic AI Lab
+### `05` — EVALUATE THE SYSTEM
 
-A hands-on repository where I implement agentic patterns instead of only reading about them.
+A model producing a good answer once proves very little.
+
+I care about:
 
 ```text
-Sequential
-    ↓
-Parallel
-    ↓
-Conditional
-    ↓
-Iterative
-    ↓
-Persistent
-    ↓
-Tool Calling
-    ↓
-Agents
+Routing Accuracy
+       +
+Retrieval Quality
+       +
+Groundedness
+       +
+Correctness
+       +
+Latency
+       +
+Cost
+       +
+Reliability
 ```
 
-→ **[Explore the Agentic AI Lab](https://github.com/M-Azfar9/agentic-ai-langgraph)**
-
 ---
 
-## `05` · TOOLBOX
-
-### AI / Agent Engineering
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square\&logo=langchain\&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square\&logo=langchain\&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-Model%20Context%20Protocol-6B5B95?style=flat-square)
-![RAG](https://img.shields.io/badge/RAG-Retrieval%20Augmented%20Generation-0EA5E9?style=flat-square)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square\&logo=fastapi\&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square\&logo=huggingface\&logoColor=black)
-
-### ML / Data
-
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square\&logo=numpy\&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square\&logo=pandas\&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square\&logo=scikit-learn\&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square\&logo=pytorch\&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square\&logo=tensorflow\&logoColor=white)
-
-### Software Engineering
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square\&logo=github\&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square\&logo=postgresql\&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square\&logo=firebase\&logoColor=black)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square\&logo=flutter\&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square\&logo=dart\&logoColor=white)
-
----
-
-## `06` · HOW I LIKE TO ENGINEER AGENTS
-
-I care about the engineering details that make an agent **predictable**, not just impressive in a demo.
-
-### 01 — Bound the agent
-
-Loops need exit conditions.
-
-Retries need limits.
-
-Exploration needs sufficiency criteria.
-
-### 02 — Make state explicit
-
-If the workflow matters, represent it instead of hiding everything inside prompts.
-
-### 03 — Separate reasoning from execution
-
-Let the model decide **what** should happen.
-
-Let deterministic code handle what can be deterministic.
-
-### 04 — Design for failure
-
-429s, malformed structured output, tool failures, timeouts and unavailable providers are normal engineering cases.
-
-### 05 — Evaluate the system, not only the model
-
-Routing accuracy, retrieval quality, grounding, correctness, latency and cost all matter.
-
----
-
-## `07` · MY LEARNING TRAJECTORY
-
-```text
-LLMs
- │
- ├── Structured Output
- │
- ├── RAG
- │
- ├── Tool Calling
- │
- ├── Agentic Workflows
- │
- ├── Multi-Agent Systems
- │
- ├── MCP
- │
- ├── Reliability
- │
- ├── Evaluation
- │
- └── Production AI Systems
-```
-
-### Exploring next
-
-* LLM fine-tuning
-* LLM evaluation and observability
-* model routing
-* agent security
-* MCP architecture
-* production RAG
-* scalable agent orchestration
-* reliable AI systems beyond a single prompt
-
----
-
-## `08` · SELECTED REPOSITORIES
-
-| Repository                                                                       | Theme                             |
-| -------------------------------------------------------------------------------- | --------------------------------- |
-| **[Doxer AI](https://github.com/M-Azfar9/Doxer-AI)**                             | Multi-agent engineering assistant |
-| **[ZeroLM AgentMesh](https://github.com/M-Azfar9/ZeroLM-AgentMesh)**             | AI / model orchestration          |
-| **[ForiKaam](https://github.com/M-Azfar9/forikaam-marketplace)**                 | Marketplace product engineering   |
-| **[Browser History MCP](https://github.com/M-Azfar9/mcp-browser-insights)**      | MCP + local AI tooling            |
-| **[Agentic AI LangGraph](https://github.com/M-Azfar9/agentic-ai-langgraph)**     | Agent workflow experiments        |
-| **[Model Context Protocol](https://github.com/M-Azfar9/Model-Context-Protocol)** | MCP learning / experimentation    |
-| **[Deep Learning](https://github.com/M-Azfar9/Deep-Learning)**                   | Deep learning foundations         |
-| **[Supervised ML](https://github.com/M-Azfar9/Supervised-Machine-Learning)**     | ML foundations                    |
-
-<details>
-<summary><b>More repositories →</b></summary>
-
-I also maintain experiments around EDA, feature engineering, computer vision, APIs, Flutter applications, data analysis, and smaller software engineering projects.
-
-→ **[Browse all repositories](https://github.com/M-Azfar9?tab=repositories)**
-
-</details>
-
----
-
-## `09` · GITHUB SIGNAL
+# `07` // TECHNOLOGY MATRIX
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=M-Azfar9&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" height="165" alt="GitHub statistics" />
+### `AI / AGENTS`
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=M-Azfar9&layout=compact&hide_border=true&theme=transparent" height="165" alt="Most used languages" />
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,fastapi&theme=dark" />
+
+<br>
+
+<img src="https://img.shields.io/badge/LangGraph-00FF9C?style=for-the-badge&labelColor=050505&logo=langchain&logoColor=00FF9C" />
+<img src="https://img.shields.io/badge/LangChain-00FF9C?style=for-the-badge&labelColor=050505&logo=langchain&logoColor=00FF9C" />
+<img src="https://img.shields.io/badge/MCP-00FF9C?style=for-the-badge&labelColor=050505&color=050505" />
+<img src="https://img.shields.io/badge/RAG-00FF9C?style=for-the-badge&labelColor=050505&color=050505" />
+<img src="https://img.shields.io/badge/LLM_EVAL-00FF9C?style=for-the-badge&labelColor=050505&color=050505" />
+
+<br><br>
+
+### `DATA / ML`
+
+<img src="https://skillicons.dev/icons?i=numpy,pandas,sklearn,pytorch&theme=dark" />
+
+<br><br>
+
+### `BACKEND / INFRASTRUCTURE`
+
+<img src="https://skillicons.dev/icons?i=python,fastapi,postgres,firebase,git,github,docker&theme=dark" />
+
+<br><br>
+
+### `APPLICATION`
+
+<img src="https://skillicons.dev/icons?i=flutter,dart&theme=dark" />
 
 </div>
 
 ---
 
-## `10` · A LITTLE MORE HUMAN
+# `08` // LEARNING TREE
 
-Outside the code, I like learning by **building**, breaking things, debugging them, and rebuilding them properly.
+```text
+                         AI ENGINEERING
+                              │
+             ┌────────────────┼────────────────┐
+             │                │                │
+             ▼                ▼                ▼
+           MODELS           SYSTEMS          DATA
+             │                │                │
+       ┌─────┼─────┐     ┌────┼────┐      ┌───┼───┐
+       ▼     ▼     ▼     ▼    ▼    ▼      ▼   ▼   ▼
+      LLM   DL    NLP   RAG  MCP  AGENTS  EDA ML  EVAL
+                         │
+                         ▼
+                  PRODUCTION AI
+                         │
+              ┌──────────┼──────────┐
+              ▼          ▼          ▼
+          RELIABILITY  SECURITY  OBSERVABILITY
+```
 
-I don't want to only know *what* a framework does.
+### Currently exploring
 
-I want to understand:
-
-> **Why was it designed this way?**
-> **What happens when it fails?**
-> **How does it scale?**
-> **How do we evaluate it?**
-> **And how would I build it myself?**
-
-That's the direction I'm taking with AI engineering.
+```text
+→ Model Routing
+→ Agent Security
+→ MCP Architecture
+→ Production RAG
+→ LLM Evaluation
+→ AI Observability
+→ Scalable Agent Orchestration
+→ Reliable Autonomous Systems
+```
 
 ---
 
-## `11` · LET'S BUILD
-
-I'm interested in connecting with people working on:
-
-**Agentic AI · LLM Applications · RAG · MCP · AI Infrastructure · Developer Tools · AI Startups · ML Engineering**
+# `09` // GITHUB TELEMETRY
 
 <div align="center">
 
-### Build systems. Understand the failure modes. Ship better AI.
+<img src="https://github-readme-stats.vercel.app/api?username=M-Azfar9&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true&theme=github_dark" height="170" />
 
-**[GitHub](https://github.com/M-Azfar9) · [LinkedIn](https://www.linkedin.com/in/muhammad-azfar-687304288/)**
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=M-Azfar9&layout=compact&hide_border=true&langs_count=8&theme=github_dark" height="170" />
 
-<br>
+<br><br>
+
+<img src="https://streak-stats.demolab.com?user=M-Azfar9&theme=dark&hide_border=true&background=050505&ring=00FF9C&fire=00FF9C&currStreakLabel=00FF9C" width="65%" />
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=M-Azfar9&bg_color=050505&color=00ff9c&line=00ff9c&point=ffffff&area=true&hide_border=true" width="95%" />
+
+</div>
+
+---
+
+# `10` // CONTRIBUTION MATRIX
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/M-Azfar9/M-Azfar9/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub contribution snake animation" />
+
+</div>
+
+---
+
+# `11` // SELECTED REPOSITORIES
+
+```text
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ REPOSITORY                         SYSTEM                                    │
+├──────────────────────────────────────────────────────────────────────────────┤
+│ Doxer-AI                           Multi-Agent Engineering Assistant          │
+│ ZeroLM-AgentMesh                   Model / Tool Orchestration                │
+│ forikaam-marketplace               Real-Time Service Marketplace             │
+│ mcp-browser-insights               Browser Intelligence via MCP              │
+│ agentic-ai-langgraph               Agentic Workflow Laboratory               │
+│ Model-Context-Protocol             MCP Learning / Experiments                │
+│ Deep-Learning                      Deep Learning Foundations                 │
+│ Supervised-Machine-Learning        Machine Learning Foundations              │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
+
+**Access:**
+
+* [Doxer AI](https://github.com/M-Azfar9/Doxer-AI)
+* [ZeroLM AgentMesh](https://github.com/M-Azfar9/ZeroLM-AgentMesh)
+* [ForiKaam](https://github.com/M-Azfar9/forikaam-marketplace)
+* [Browser History MCP](https://github.com/M-Azfar9/mcp-browser-insights)
+* [Agentic AI LangGraph](https://github.com/M-Azfar9/agentic-ai-langgraph)
+* [Model Context Protocol](https://github.com/M-Azfar9/Model-Context-Protocol)
+* [Deep Learning](https://github.com/M-Azfar9/Deep-Learning)
+* [Supervised Machine Learning](https://github.com/M-Azfar9/Supervised-Machine-Learning)
+
+---
+
+# `12` // DEVELOPMENT LOOP
+
+```text
+             ┌─────────────────────┐
+             │       BUILD         │
+             └──────────┬──────────┘
+                        │
+                        ▼
+             ┌─────────────────────┐
+             │       BREAK        │
+             └──────────┬──────────┘
+                        │
+                        ▼
+             ┌─────────────────────┐
+             │       DEBUG        │
+             └──────────┬──────────┘
+                        │
+                        ▼
+             ┌─────────────────────┐
+             │      MEASURE        │
+             └──────────┬──────────┘
+                        │
+                        ▼
+             ┌─────────────────────┐
+             │      REFACTOR       │
+             └──────────┬──────────┘
+                        │
+                        ▼
+             ┌─────────────────────┐
+             │       SHIP          │
+             └──────────┬──────────┘
+                        │
+                        └───────────────► REPEAT
+```
+
+I learn fastest when something is **actually built**.
+
+Break it.
+
+Understand why it broke.
+
+Fix it.
+
+Then make the architecture better.
+
+---
+
+# `13` // TERMINAL
+
+<div align="center">
+
+```text
+┌──────────────────────────────────────────────────────────────┐
+│                                                              │
+│  $ connect --engineer muhammad-azfar                         │
+│                                                              │
+│  [+] connection established                                  │
+│  [+] interests loaded                                        │
+│                                                              │
+│  AGENTIC AI       [ONLINE]                                   │
+│  LLM ENGINEERING  [ONLINE]                                   │
+│  RAG              [ONLINE]                                   │
+│  MCP              [ONLINE]                                   │
+│  AI SYSTEMS       [BUILDING]                                 │
+│                                                              │
+│  > let's build something that survives production.           │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+```
+
+<a href="https://github.com/M-Azfar9">
+<img src="https://img.shields.io/badge/GITHUB-00FF9C?style=for-the-badge&logo=github&logoColor=050505&labelColor=00FF9C&color=050505" />
+</a>
+
+<a href="https://www.linkedin.com/in/muhammad-azfar-687304288/">
+<img src="https://img.shields.io/badge/LINKEDIN-00FF9C?style=for-the-badge&logo=linkedin&logoColor=050505&labelColor=00FF9C&color=050505" />
+</a>
+
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:00ff9c,50:071a17,100:050505&animation=twinkling" width="100%" />
 
 <sub>AI systems, not AI demos.</sub>
 
