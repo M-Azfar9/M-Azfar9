@@ -59,7 +59,7 @@
 </td>
 
 <td align="center">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp3Ms6r8tCj_8LnKUlH-tCniREf3-jQ5--j-XC732_Bw&s=10" width="45"><br>
+  <img src="https://www.shutterstock.com/image-vector/rag-icon-artificial-intelligence-llm-260nw-2694316711.jpg" width="45"><br>
   <sub>RAG</sub>
 </td>
 
