@@ -1,45 +1,543 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Muhammad Azfar, AI Engineer building agentic systems" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo5MDAxODhhZC04YmRmLTRlODctYmJhMy1iODY2MDI2MzViODkAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaOeuJUnMdo4+DFmgTIgArLkAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo1ZmExZmRlNS05Y2M5LTQwYzctODc5Yy0yNGU0MjRlMDk3ZGVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNobJPgAVigA14QlQODMoI2xgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggfDKPzi8HidIS9rse+DtTHTGP1OK2+xK83YK4CqYrolSkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaEwKAyaNubHUPyLDIHRdgH8AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCC7/OOjOw7AJgLB11kUYWG6sSp8GPdY+F7bm79ZngOmUmRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjlZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjkwMDE4OGFkLThiZGYtNGU4Ny1iYmEzLWI4NjYwMjYzNWI4OS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmJkNjU0OTFhLWVjMzAtNGZjMi04Yzg0LWIxOGMzNjVjMTQwYXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCB8Mo/OLweJ0hL2ux74O1MdMY/U4rb7ErzdgrgKpiuiVKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggBMDh6eaCcB/BgrnKke4yzgFA2anj1EyMwA7UoOhPheCiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggQTjeY4d5w+cJ+DxC60KSEj3eHdkVTkBtY/y8qbp3aqF0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQJaIOcXerUMiF2Fa+L/3yECUl6fDApklLXyiiYQyzU1iXXyZgwhb/upQMPw+Kv7q48bCMx8u6UnCDxllaNurZpo=</c2pa:manifest></metadata>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1200 280"
+     width="1200"
+     height="280"
+     role="img"
+     aria-label="Muhammad Azfar, AI Engineer building agentic systems">
+
   <defs>
+
+    <!-- Background -->
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0A0E1A"/>
-      <stop offset="1" stop-color="#141033"/>
+      <stop offset="0%" stop-color="#080B14"/>
+      <stop offset="55%" stop-color="#0D1020"/>
+      <stop offset="100%" stop-color="#151033"/>
     </linearGradient>
-    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#7C6CFF"/>
-      <stop offset="1" stop-color="#2DE1C2"/>
+
+    <!-- Accent -->
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8B7CFF"/>
+      <stop offset="50%" stop-color="#5FE8D5"/>
+      <stop offset="100%" stop-color="#2DE1C2"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0.85" cy="0.2" r="0.6">
-      <stop offset="0" stop-color="#7C6CFF" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#7C6CFF" stop-opacity="0"/>
+
+    <!-- Name gradient -->
+    <linearGradient id="nameGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="45%" stop-color="#DCD9FF"/>
+      <stop offset="100%" stop-color="#7FFFEA"/>
+    </linearGradient>
+
+    <!-- Purple glow -->
+    <radialGradient id="purpleGlow" cx="85%" cy="20%" r="65%">
+      <stop offset="0%" stop-color="#7566FF" stop-opacity="0.28"/>
+      <stop offset="55%" stop-color="#7566FF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#7566FF" stop-opacity="0"/>
     </radialGradient>
+
+    <!-- Teal glow -->
+    <radialGradient id="tealGlow" cx="75%" cy="85%" r="50%">
+      <stop offset="0%" stop-color="#2DE1C2" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#2DE1C2" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Name glow -->
+    <filter id="nameGlow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Node glow -->
+    <filter id="nodeGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Clip for typing effect -->
+    <clipPath id="nameClip">
+      <rect x="62" y="125" width="0" height="70">
+        <animate
+          attributeName="width"
+          from="0"
+          to="540"
+          dur="2.4s"
+          begin="0.5s"
+          fill="freeze"/>
+      </rect>
+    </clipPath>
+
   </defs>
 
-  <rect width="1200" height="280" rx="18" fill="url(#bg)"/>
-  <rect width="1200" height="280" rx="18" fill="url(#glow)"/>
 
-  <!-- agent graph -->
-  <g stroke="url(#edge)" stroke-width="1.6" fill="none" opacity="0.75">
-    <path d="M760 140 L860 70"/>
-    <path d="M760 140 L860 210"/>
-    <path d="M860 70 L980 140"/>
-    <path d="M860 210 L980 140"/>
-    <path d="M980 140 L1100 90"/>
-    <path d="M980 140 L1100 190"/>
-    <path d="M1100 190 C1100 250 760 250 760 152" stroke-dasharray="5 6"/>
+  <!-- ========================================================= -->
+  <!-- BACKGROUND -->
+  <!-- ========================================================= -->
+
+  <rect
+    width="1200"
+    height="280"
+    rx="20"
+    fill="url(#bg)"
+  />
+
+  <rect
+    width="1200"
+    height="280"
+    rx="20"
+    fill="url(#purpleGlow)"
+  />
+
+  <rect
+    width="1200"
+    height="280"
+    rx="20"
+    fill="url(#tealGlow)"
+  />
+
+  <!-- Subtle border -->
+  <rect
+    x="1"
+    y="1"
+    width="1198"
+    height="278"
+    rx="19"
+    fill="none"
+    stroke="url(#accent)"
+    stroke-opacity="0.28"
+  />
+
+
+  <!-- ========================================================= -->
+  <!-- DECORATIVE GRID -->
+  <!-- ========================================================= -->
+
+  <g opacity="0.055" stroke="#FFFFFF" stroke-width="1">
+
+    <path d="M0 40H1200"/>
+    <path d="M0 80H1200"/>
+    <path d="M0 120H1200"/>
+    <path d="M0 160H1200"/>
+    <path d="M0 200H1200"/>
+    <path d="M0 240H1200"/>
+
+    <path d="M80 0V280"/>
+    <path d="M160 0V280"/>
+    <path d="M240 0V280"/>
+    <path d="M320 0V280"/>
+    <path d="M400 0V280"/>
+    <path d="M480 0V280"/>
+    <path d="M560 0V280"/>
+    <path d="M640 0V280"/>
+    <path d="M720 0V280"/>
+    <path d="M800 0V280"/>
+    <path d="M880 0V280"/>
+    <path d="M960 0V280"/>
+    <path d="M1040 0V280"/>
+    <path d="M1120 0V280"/>
+
   </g>
-  <g>
-    <circle cx="760" cy="140" r="11" fill="#0A0E1A" stroke="#7C6CFF" stroke-width="2"/>
-    <circle cx="860" cy="70" r="9" fill="#0A0E1A" stroke="#7C6CFF" stroke-width="2"/>
-    <circle cx="860" cy="210" r="9" fill="#0A0E1A" stroke="#7C6CFF" stroke-width="2"/>
-    <circle cx="980" cy="140" r="12" fill="#2DE1C2"/>
-    <circle cx="1100" cy="90" r="9" fill="#0A0E1A" stroke="#2DE1C2" stroke-width="2"/>
-    <circle cx="1100" cy="190" r="9" fill="#0A0E1A" stroke="#2DE1C2" stroke-width="2"/>
-    <circle r="4" fill="#2DE1C2">
-      <animateMotion dur="5s" repeatCount="indefinite" path="M760 140 L860 70 L980 140 L1100 190 C1100 250 760 250 760 152"/>
+
+
+  <!-- ========================================================= -->
+  <!-- TOP TERMINAL LABEL -->
+  <!-- ========================================================= -->
+
+  <g font-family="'SF Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace">
+
+    <!-- terminal prompt -->
+    <text
+      x="64"
+      y="62"
+      font-size="14"
+      fill="#66708F">
+      ~/portfolio
+    </text>
+
+    <text
+      x="160"
+      y="62"
+      font-size="14"
+      fill="#2DE1C2">
+      $ whoami
+    </text>
+
+    <text
+      x="232"
+      y="62"
+      font-size="14"
+      fill="#AAB2D0">
+      Muhammad Azfar
+    </text>
+
+    <!-- blinking cursor -->
+    <rect
+      x="357"
+      y="48"
+      width="7"
+      height="17"
+      rx="1"
+      fill="#2DE1C2">
+
+      <animate
+        attributeName="opacity"
+        values="1;0;1"
+        dur="1s"
+        repeatCount="indefinite"/>
+
+    </rect>
+
+  </g>
+
+
+  <!-- ========================================================= -->
+  <!-- ROLE -->
+  <!-- ========================================================= -->
+
+  <text
+    x="64"
+    y="105"
+    font-family="'SF Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace"
+    font-size="14"
+    font-weight="600"
+    letter-spacing="2.8"
+    fill="#2DE1C2">
+
+    AI ENGINEER
+    <tspan fill="#626B89"> / </tspan>
+    <tspan fill="#8B7CFF">AGENTIC SYSTEMS</tspan>
+
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!-- NAME -->
+  <!-- ========================================================= -->
+
+  <!-- subtle glow behind name -->
+  <text
+    x="64"
+    y="174"
+    font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif"
+    font-size="58"
+    font-weight="800"
+    letter-spacing="-1.5"
+    fill="#6C63FF"
+    opacity="0.16"
+    filter="url(#nameGlow)">
+    Muhammad Azfar
+  </text>
+
+  <!-- actual typing name -->
+  <g clip-path="url(#nameClip)">
+
+    <text
+      x="64"
+      y="174"
+      font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif"
+      font-size="58"
+      font-weight="800"
+      letter-spacing="-1.5"
+      fill="url(#nameGradient)">
+      Muhammad Azfar
+    </text>
+
+  </g>
+
+  <!-- typing cursor beside name -->
+  <rect
+    x="65"
+    y="128"
+    width="4"
+    height="52"
+    rx="1"
+    fill="#2DE1C2"
+    opacity="0">
+
+    <!-- appear after typing -->
+    <animate
+      attributeName="x"
+      from="65"
+      to="585"
+      dur="2.4s"
+      begin="0.5s"
+      fill="freeze"/>
+
+    <animate
+      attributeName="opacity"
+      values="0;1"
+      dur="0.2s"
+      begin="0.5s"
+      fill="freeze"/>
+
+    <animate
+      attributeName="opacity"
+      values="1;0;1"
+      dur="0.85s"
+      begin="2.9s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+  <!-- ========================================================= -->
+  <!-- DESCRIPTION -->
+  <!-- ========================================================= -->
+
+  <text
+    x="66"
+    y="214"
+    font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif"
+    font-size="19"
+    fill="#9AA3C7">
+
+    Building systems that
+
+    <tspan fill="#D9DDF0">reason</tspan>,
+    <tspan fill="#D9DDF0">act</tspan>,
+    <tspan fill="#D9DDF0">fail</tspan>,
+
+    <tspan fill="#2DE1C2">recover</tspan>.
+
+  </text>
+
+
+  <!-- ========================================================= -->
+  <!-- SMALL STATUS -->
+  <!-- ========================================================= -->
+
+  <g transform="translate(65 248)"
+     font-family="'SF Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace">
+
+    <circle
+      cx="5"
+      cy="-4"
+      r="4"
+      fill="#2DE1C2">
+
+      <animate
+        attributeName="opacity"
+        values="1;0.35;1"
+        dur="1.8s"
+        repeatCount="indefinite"/>
+
     </circle>
+
+    <text
+      x="17"
+      y="0"
+      font-size="12"
+      fill="#697390">
+      SYSTEMS ONLINE
+    </text>
+
   </g>
 
-  <text x="64" y="112" font-family="'SF Mono','JetBrains Mono',Menlo,Consolas,monospace" font-size="15" fill="#2DE1C2" letter-spacing="3">AI ENGINEER / AGENTIC SYSTEMS</text>
-  <text x="64" y="170" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="58" font-weight="700" fill="#F2F4FF">Muhammad Azfar</text>
-  <text x="64" y="212" font-family="Inter,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" fill="#9AA3C7">Agents that reason, act, fail, and recover.</text>
+
+  <!-- ========================================================= -->
+  <!-- AGENT GRAPH -->
+  <!-- ========================================================= -->
+
+  <g
+    stroke="url(#accent)"
+    stroke-width="1.5"
+    fill="none"
+    opacity="0.72">
+
+    <!-- main graph -->
+    <path d="M760 140 L855 72"/>
+    <path d="M760 140 L855 208"/>
+
+    <path d="M855 72 L970 140"/>
+    <path d="M855 208 L970 140"/>
+
+    <path d="M970 140 L1090 88"/>
+    <path d="M970 140 L1090 192"/>
+
+    <!-- feedback loop -->
+    <path
+      d="M1090 192
+         C1115 235 1080 258 990 258
+         C875 258 760 225 760 153"
+      stroke-dasharray="5 7">
+
+      <animate
+        attributeName="stroke-dashoffset"
+        from="0"
+        to="-48"
+        dur="2s"
+        repeatCount="indefinite"/>
+
+    </path>
+
+  </g>
+
+
+  <!-- ========================================================= -->
+  <!-- AGENT NODES -->
+  <!-- ========================================================= -->
+
+  <g>
+
+    <!-- root -->
+    <circle
+      cx="760"
+      cy="140"
+      r="12"
+      fill="#0A0E1A"
+      stroke="#8B7CFF"
+      stroke-width="2"/>
+
+    <circle
+      cx="760"
+      cy="140"
+      r="4"
+      fill="#8B7CFF">
+
+      <animate
+        attributeName="r"
+        values="4;6;4"
+        dur="1.8s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <!-- upper agent -->
+    <circle
+      cx="855"
+      cy="72"
+      r="9"
+      fill="#0A0E1A"
+      stroke="#8B7CFF"
+      stroke-width="2"/>
+
+
+    <!-- lower agent -->
+    <circle
+      cx="855"
+      cy="208"
+      r="9"
+      fill="#0A0E1A"
+      stroke="#8B7CFF"
+      stroke-width="2"/>
+
+
+    <!-- central agent -->
+    <circle
+      cx="970"
+      cy="140"
+      r="13"
+      fill="#2DE1C2"
+      filter="url(#nodeGlow)">
+
+      <animate
+        attributeName="r"
+        values="13;16;13"
+        dur="2s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <!-- output nodes -->
+    <circle
+      cx="1090"
+      cy="88"
+      r="9"
+      fill="#0A0E1A"
+      stroke="#2DE1C2"
+      stroke-width="2"/>
+
+    <circle
+      cx="1090"
+      cy="192"
+      r="9"
+      fill="#0A0E1A"
+      stroke="#2DE1C2"
+      stroke-width="2"/>
+
+
+    <!-- ======================================================= -->
+    <!-- MOVING DATA PACKET -->
+    <!-- ======================================================= -->
+
+    <circle
+      r="4"
+      fill="#FFFFFF"
+      filter="url(#nodeGlow)">
+
+      <animateMotion
+        dur="4.5s"
+        repeatCount="indefinite"
+        path="
+          M760 140
+          L855 72
+          L970 140
+          L1090 88
+          M970 140
+          L855 208
+          L760 140
+          M970 140
+          L1090 192
+          C1115 235 1080 258 990 258
+          C875 258 760 225 760 153
+        "/>
+
+    </circle>
+
+  </g>
+
+
+  <!-- ========================================================= -->
+  <!-- RIGHT SIDE MICRO LABEL -->
+  <!-- ========================================================= -->
+
+  <g
+    font-family="'SF Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace"
+    font-size="10"
+    letter-spacing="1.5">
+
+    <text
+      x="1005"
+      y="128"
+      fill="#53607E">
+      AGENT
+    </text>
+
+    <text
+      x="1005"
+      y="160"
+      fill="#2DE1C2">
+      ORCHESTRATOR
+    </text>
+
+  </g>
+
+
+  <!-- ========================================================= -->
+  <!-- SCANNING LINE -->
+  <!-- ========================================================= -->
+
+  <rect
+    x="50"
+    y="225"
+    width="520"
+    height="1"
+    fill="url(#accent)"
+    opacity="0.35">
+
+    <animate
+      attributeName="x"
+      values="50;570;50"
+      dur="6s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
 </svg>
