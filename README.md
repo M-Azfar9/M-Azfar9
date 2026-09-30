@@ -429,7 +429,7 @@
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=M-Azfar9&hide_border=true&background=00000000&ring=7C6CFF&fire=2DE1C2&currStreakLabel=2DE1C2&currStreakNum=F2F4FF&sideNums=F2F4FF&sideLabels=9AA3C7&dates=9AA3C7" height="150" />
+
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=M-Azfar9&layout=compact&hide_border=true&theme=transparent&title_color=7C6CFF&text_color=9AA3C7&langs_count=6" height="150" />
 
 <sub>AI systems, not AI demos.</sub>
