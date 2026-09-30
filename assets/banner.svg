@@ -7,41 +7,64 @@
 
   <defs>
 
-    <!-- Background -->
+    <!-- ===================================================== -->
+    <!-- BACKGROUND -->
+    <!-- ===================================================== -->
+
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#080B14"/>
-      <stop offset="55%" stop-color="#0D1020"/>
-      <stop offset="100%" stop-color="#151033"/>
+      <stop offset="0%" stop-color="#070A12"/>
+      <stop offset="52%" stop-color="#0C1020"/>
+      <stop offset="100%" stop-color="#171231"/>
     </linearGradient>
 
-    <!-- Accent -->
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#8B7CFF"/>
-      <stop offset="50%" stop-color="#5FE8D5"/>
+      <stop offset="48%" stop-color="#5FE8D5"/>
       <stop offset="100%" stop-color="#2DE1C2"/>
     </linearGradient>
 
-    <!-- Name gradient -->
     <linearGradient id="nameGradient" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="45%" stop-color="#DCD9FF"/>
+      <stop offset="42%" stop-color="#E4E1FF"/>
       <stop offset="100%" stop-color="#7FFFEA"/>
     </linearGradient>
 
-    <!-- Purple glow -->
-    <radialGradient id="purpleGlow" cx="85%" cy="20%" r="65%">
-      <stop offset="0%" stop-color="#7566FF" stop-opacity="0.28"/>
-      <stop offset="55%" stop-color="#7566FF" stop-opacity="0.08"/>
+    <linearGradient id="graphGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8B7CFF"/>
+      <stop offset="100%" stop-color="#2DE1C2"/>
+    </linearGradient>
+
+    <radialGradient id="purpleGlow" cx="88%" cy="15%" r="65%">
+      <stop offset="0%" stop-color="#7566FF" stop-opacity="0.30"/>
+      <stop offset="48%" stop-color="#7566FF" stop-opacity="0.09"/>
       <stop offset="100%" stop-color="#7566FF" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Teal glow -->
-    <radialGradient id="tealGlow" cx="75%" cy="85%" r="50%">
-      <stop offset="0%" stop-color="#2DE1C2" stop-opacity="0.10"/>
+    <radialGradient id="tealGlow" cx="82%" cy="90%" r="55%">
+      <stop offset="0%" stop-color="#2DE1C2" stop-opacity="0.13"/>
       <stop offset="100%" stop-color="#2DE1C2" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Name glow -->
+    <!-- ===================================================== -->
+    <!-- FILTERS -->
+    <!-- ===================================================== -->
+
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="strongGlow" x="-150%" y="-150%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
     <filter id="nameGlow" x="-20%" y="-50%" width="140%" height="200%">
       <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge>
@@ -50,26 +73,28 @@
       </feMerge>
     </filter>
 
-    <!-- Node glow -->
-    <filter id="nodeGlow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+    <!-- ===================================================== -->
+    <!-- NAME TYPING CLIP -->
+    <!-- ===================================================== -->
 
-    <!-- Clip for typing effect -->
     <clipPath id="nameClip">
-      <rect x="62" y="125" width="0" height="70">
+      <rect x="62" y="120" width="0" height="70">
         <animate
           attributeName="width"
           from="0"
-          to="540"
-          dur="2.4s"
-          begin="0.5s"
+          to="545"
+          dur="2.2s"
+          begin="0.45s"
           fill="freeze"/>
       </rect>
+    </clipPath>
+
+    <!-- ===================================================== -->
+    <!-- GRAPH CLIP -->
+    <!-- ===================================================== -->
+
+    <clipPath id="graphClip">
+      <rect x="700" y="30" width="460" height="230"/>
     </clipPath>
 
   </defs>
@@ -100,7 +125,8 @@
     fill="url(#tealGlow)"
   />
 
-  <!-- Subtle border -->
+  <!-- border -->
+
   <rect
     x="1"
     y="1"
@@ -109,7 +135,7 @@
     rx="19"
     fill="none"
     stroke="url(#accent)"
-    stroke-opacity="0.28"
+    stroke-opacity="0.30"
   />
 
 
@@ -117,7 +143,9 @@
   <!-- DECORATIVE GRID -->
   <!-- ========================================================= -->
 
-  <g opacity="0.055" stroke="#FFFFFF" stroke-width="1">
+  <g opacity="0.045"
+     stroke="#FFFFFF"
+     stroke-width="1">
 
     <path d="M0 40H1200"/>
     <path d="M0 80H1200"/>
@@ -145,12 +173,11 @@
 
 
   <!-- ========================================================= -->
-  <!-- TOP TERMINAL LABEL -->
+  <!-- TERMINAL HEADER -->
   <!-- ========================================================= -->
 
   <g font-family="'SF Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace">
 
-    <!-- terminal prompt -->
     <text
       x="64"
       y="62"
@@ -175,7 +202,6 @@
       Muhammad Azfar
     </text>
 
-    <!-- blinking cursor -->
     <rect
       x="357"
       y="48"
@@ -209,17 +235,20 @@
     fill="#2DE1C2">
 
     AI ENGINEER
+
     <tspan fill="#626B89"> / </tspan>
-    <tspan fill="#8B7CFF">AGENTIC SYSTEMS</tspan>
+
+    <tspan fill="#8B7CFF">
+      AGENTIC SYSTEMS
+    </tspan>
 
   </text>
 
 
   <!-- ========================================================= -->
-  <!-- NAME -->
+  <!-- NAME GLOW -->
   <!-- ========================================================= -->
 
-  <!-- subtle glow behind name -->
   <text
     x="64"
     y="174"
@@ -228,12 +257,16 @@
     font-weight="800"
     letter-spacing="-1.5"
     fill="#6C63FF"
-    opacity="0.16"
+    opacity="0.17"
     filter="url(#nameGlow)">
     Muhammad Azfar
   </text>
 
-  <!-- actual typing name -->
+
+  <!-- ========================================================= -->
+  <!-- TYPING NAME -->
+  <!-- ========================================================= -->
+
   <g clip-path="url(#nameClip)">
 
     <text
@@ -249,37 +282,39 @@
 
   </g>
 
-  <!-- typing cursor beside name -->
+
+  <!-- ========================================================= -->
+  <!-- TYPING CURSOR -->
+  <!-- ========================================================= -->
+
   <rect
-    x="65"
+    x="64"
     y="128"
     width="4"
     height="52"
     rx="1"
-    fill="#2DE1C2"
-    opacity="0">
+    fill="#2DE1C2">
 
-    <!-- appear after typing -->
     <animate
       attributeName="x"
-      from="65"
+      from="64"
       to="585"
-      dur="2.4s"
-      begin="0.5s"
+      dur="2.2s"
+      begin="0.45s"
       fill="freeze"/>
 
     <animate
       attributeName="opacity"
       values="0;1"
-      dur="0.2s"
-      begin="0.5s"
+      dur="0.15s"
+      begin="0.45s"
       fill="freeze"/>
 
     <animate
       attributeName="opacity"
       values="1;0;1"
-      dur="0.85s"
-      begin="2.9s"
+      dur="0.8s"
+      begin="2.8s"
       repeatCount="indefinite"/>
 
   </rect>
@@ -299,7 +334,9 @@
     Building systems that
 
     <tspan fill="#D9DDF0">reason</tspan>,
+
     <tspan fill="#D9DDF0">act</tspan>,
+
     <tspan fill="#D9DDF0">fail</tspan>,
 
     <tspan fill="#2DE1C2">recover</tspan>.
@@ -308,11 +345,12 @@
 
 
   <!-- ========================================================= -->
-  <!-- SMALL STATUS -->
+  <!-- SYSTEM STATUS -->
   <!-- ========================================================= -->
 
-  <g transform="translate(65 248)"
-     font-family="'SF Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace">
+  <g
+    transform="translate(65 248)"
+    font-family="'SF Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace">
 
     <circle
       cx="5"
@@ -321,9 +359,15 @@
       fill="#2DE1C2">
 
       <animate
+        attributeName="r"
+        values="4;5;4"
+        dur="1.4s"
+        repeatCount="indefinite"/>
+
+      <animate
         attributeName="opacity"
         values="1;0.35;1"
-        dur="1.8s"
+        dur="1.4s"
         repeatCount="indefinite"/>
 
     </circle>
@@ -340,181 +384,532 @@
 
 
   <!-- ========================================================= -->
-  <!-- AGENT GRAPH -->
+  <!-- AGENTIC SYSTEM GRAPH -->
   <!-- ========================================================= -->
 
-  <g
-    stroke="url(#accent)"
-    stroke-width="1.5"
-    fill="none"
-    opacity="0.72">
+  <g clip-path="url(#graphClip)">
 
-    <!-- main graph -->
-    <path d="M760 140 L855 72"/>
-    <path d="M760 140 L855 208"/>
+    <!-- graph ambient glow -->
 
-    <path d="M855 72 L970 140"/>
-    <path d="M855 208 L970 140"/>
+    <circle
+      cx="940"
+      cy="145"
+      r="115"
+      fill="#7566FF"
+      opacity="0.035">
 
-    <path d="M970 140 L1090 88"/>
-    <path d="M970 140 L1090 192"/>
+      <animate
+        attributeName="r"
+        values="105;125;105"
+        dur="5s"
+        repeatCount="indefinite"/>
 
-    <!-- feedback loop -->
+      <animate
+        attributeName="opacity"
+        values="0.025;0.055;0.025"
+        dur="5s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <!-- ===================================================== -->
+    <!-- STATIC CONNECTIONS -->
+    <!-- ===================================================== -->
+
+    <g
+      fill="none"
+      stroke="url(#graphGradient)"
+      stroke-width="1.4"
+      stroke-linecap="round">
+
+      <!-- root -> agents -->
+
+      <path
+        d="M748 140 L850 75"
+        opacity="0.58"/>
+
+      <path
+        d="M748 140 L850 205"
+        opacity="0.58"/>
+
+
+      <!-- agents -> orchestrator -->
+
+      <path
+        d="M860 75 L962 140"
+        opacity="0.62"/>
+
+      <path
+        d="M860 205 L962 140"
+        opacity="0.62"/>
+
+
+      <!-- orchestrator -> outputs -->
+
+      <path
+        d="M978 140 L1085 88"
+        opacity="0.68"/>
+
+      <path
+        d="M978 140 L1085 192"
+        opacity="0.68"/>
+
+    </g>
+
+
+    <!-- ===================================================== -->
+    <!-- ANIMATED CONNECTION PULSES -->
+    <!-- ===================================================== -->
+
+    <g
+      fill="none"
+      stroke="#2DE1C2"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-dasharray="3 14">
+
+      <path
+        d="M748 140 L850 75"
+        stroke-dashoffset="0">
+
+        <animate
+          attributeName="stroke-dashoffset"
+          from="0"
+          to="-34"
+          dur="1.5s"
+          repeatCount="indefinite"/>
+
+      </path>
+
+      <path
+        d="M748 140 L850 205">
+
+        <animate
+          attributeName="stroke-dashoffset"
+          from="0"
+          to="-34"
+          dur="1.8s"
+          repeatCount="indefinite"/>
+
+      </path>
+
+      <path
+        d="M860 75 L962 140">
+
+        <animate
+          attributeName="stroke-dashoffset"
+          from="0"
+          to="-34"
+          dur="1.3s"
+          repeatCount="indefinite"/>
+
+      </path>
+
+      <path
+        d="M860 205 L962 140">
+
+        <animate
+          attributeName="stroke-dashoffset"
+          from="0"
+          to="-34"
+          dur="1.6s"
+          repeatCount="indefinite"/>
+
+      </path>
+
+      <path
+        d="M978 140 L1085 88">
+
+        <animate
+          attributeName="stroke-dashoffset"
+          from="0"
+          to="-34"
+          dur="1.4s"
+          repeatCount="indefinite"/>
+
+      </path>
+
+      <path
+        d="M978 140 L1085 192">
+
+        <animate
+          attributeName="stroke-dashoffset"
+          from="0"
+          to="-34"
+          dur="1.7s"
+          repeatCount="indefinite"/>
+
+      </path>
+
+    </g>
+
+
+    <!-- ===================================================== -->
+    <!-- FEEDBACK LOOP -->
+    <!-- ===================================================== -->
+
     <path
-      d="M1090 192
-         C1115 235 1080 258 990 258
-         C875 258 760 225 760 153"
-      stroke-dasharray="5 7">
+      d="M1085 192
+         C1120 232 1095 258 995 258
+         C875 258 748 230 748 153"
+      fill="none"
+      stroke="#8B7CFF"
+      stroke-width="1.4"
+      stroke-dasharray="5 8"
+      opacity="0.65">
 
       <animate
         attributeName="stroke-dashoffset"
         from="0"
-        to="-48"
+        to="-52"
         dur="2s"
         repeatCount="indefinite"/>
 
     </path>
 
-  </g>
+
+    <!-- ===================================================== -->
+    <!-- FEEDBACK LOOP HIGHLIGHT -->
+    <!-- ===================================================== -->
+
+    <path
+      d="M1085 192
+         C1120 232 1095 258 995 258
+         C875 258 748 230 748 153"
+      fill="none"
+      stroke="#2DE1C2"
+      stroke-width="2"
+      stroke-dasharray="2 28"
+      stroke-linecap="round">
+
+      <animate
+        attributeName="stroke-dashoffset"
+        from="0"
+        to="-60"
+        dur="2.2s"
+        repeatCount="indefinite"/>
+
+    </path>
 
 
-  <!-- ========================================================= -->
-  <!-- AGENT NODES -->
-  <!-- ========================================================= -->
+    <!-- ===================================================== -->
+    <!-- ROOT NODE -->
+    <!-- ===================================================== -->
 
-  <g>
-
-    <!-- root -->
     <circle
-      cx="760"
+      cx="748"
       cy="140"
-      r="12"
-      fill="#0A0E1A"
+      r="13"
+      fill="#090D18"
       stroke="#8B7CFF"
-      stroke-width="2"/>
+      stroke-width="1.8"/>
 
     <circle
-      cx="760"
+      cx="748"
       cy="140"
       r="4"
-      fill="#8B7CFF">
+      fill="#8B7CFF"
+      filter="url(#softGlow)">
 
       <animate
         attributeName="r"
-        values="4;6;4"
+        values="4;7;4"
         dur="1.8s"
         repeatCount="indefinite"/>
 
     </circle>
 
 
-    <!-- upper agent -->
+    <!-- ===================================================== -->
+    <!-- UPPER AGENT -->
+    <!-- ===================================================== -->
+
     <circle
       cx="855"
       cy="72"
-      r="9"
-      fill="#0A0E1A"
+      r="10"
+      fill="#090D18"
       stroke="#8B7CFF"
-      stroke-width="2"/>
+      stroke-width="1.8"/>
 
-
-    <!-- lower agent -->
     <circle
       cx="855"
-      cy="208"
-      r="9"
-      fill="#0A0E1A"
-      stroke="#8B7CFF"
-      stroke-width="2"/>
-
-
-    <!-- central agent -->
-    <circle
-      cx="970"
-      cy="140"
-      r="13"
-      fill="#2DE1C2"
-      filter="url(#nodeGlow)">
+      cy="72"
+      r="3"
+      fill="#8B7CFF">
 
       <animate
-        attributeName="r"
-        values="13;16;13"
-        dur="2s"
+        attributeName="opacity"
+        values="0.4;1;0.4"
+        dur="1.6s"
         repeatCount="indefinite"/>
 
     </circle>
 
 
-    <!-- output nodes -->
+    <!-- ===================================================== -->
+    <!-- LOWER AGENT -->
+    <!-- ===================================================== -->
+
+    <circle
+      cx="855"
+      cy="208"
+      r="10"
+      fill="#090D18"
+      stroke="#8B7CFF"
+      stroke-width="1.8"/>
+
+    <circle
+      cx="855"
+      cy="208"
+      r="3"
+      fill="#8B7CFF">
+
+      <animate
+        attributeName="opacity"
+        values="1;0.35;1"
+        dur="1.9s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <!-- ===================================================== -->
+    <!-- CENTRAL ORCHESTRATOR -->
+    <!-- ===================================================== -->
+
+    <circle
+      cx="970"
+      cy="140"
+      r="18"
+      fill="#2DE1C2"
+      opacity="0.08">
+
+      <animate
+        attributeName="r"
+        values="16;24;16"
+        dur="2.2s"
+        repeatCount="indefinite"/>
+
+      <animate
+        attributeName="opacity"
+        values="0.04;0.12;0.04"
+        dur="2.2s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <circle
+      cx="970"
+      cy="140"
+      r="11"
+      fill="#07131A"
+      stroke="#2DE1C2"
+      stroke-width="2"
+      filter="url(#softGlow)"/>
+
+    <circle
+      cx="970"
+      cy="140"
+      r="4"
+      fill="#2DE1C2">
+
+      <animate
+        attributeName="r"
+        values="4;6;4"
+        dur="1.2s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <!-- ===================================================== -->
+    <!-- OUTPUT NODES -->
+    <!-- ===================================================== -->
+
     <circle
       cx="1090"
       cy="88"
-      r="9"
-      fill="#0A0E1A"
+      r="10"
+      fill="#090D18"
       stroke="#2DE1C2"
-      stroke-width="2"/>
+      stroke-width="1.8"/>
 
     <circle
       cx="1090"
       cy="192"
-      r="9"
-      fill="#0A0E1A"
+      r="10"
+      fill="#090D18"
       stroke="#2DE1C2"
-      stroke-width="2"/>
+      stroke-width="1.8"/>
 
 
-    <!-- ======================================================= -->
-    <!-- MOVING DATA PACKET -->
-    <!-- ======================================================= -->
+    <!-- ===================================================== -->
+    <!-- DATA PACKET 1 -->
+    <!-- ===================================================== -->
 
     <circle
-      r="4"
+      r="3.5"
       fill="#FFFFFF"
-      filter="url(#nodeGlow)">
+      filter="url(#softGlow)">
 
       <animateMotion
-        dur="4.5s"
+        dur="3.8s"
+        repeatCount="indefinite"
+        path="M748 140 L855 72 L970 140 L1090 88"/>
+
+    </circle>
+
+
+    <!-- ===================================================== -->
+    <!-- DATA PACKET 2 -->
+    <!-- ===================================================== -->
+
+    <circle
+      r="3"
+      fill="#2DE1C2"
+      filter="url(#softGlow)">
+
+      <animateMotion
+        dur="4.2s"
+        begin="1s"
+        repeatCount="indefinite"
+        path="M748 140 L855 208 L970 140 L1090 192"/>
+
+    </circle>
+
+
+    <!-- ===================================================== -->
+    <!-- DATA PACKET 3 / FEEDBACK -->
+    <!-- ===================================================== -->
+
+    <circle
+      r="3"
+      fill="#8B7CFF"
+      filter="url(#softGlow)">
+
+      <animateMotion
+        dur="5.2s"
+        begin="0.8s"
         repeatCount="indefinite"
         path="
-          M760 140
-          L855 72
-          L970 140
-          L1090 88
-          M970 140
-          L855 208
-          L760 140
-          M970 140
-          L1090 192
-          C1115 235 1080 258 990 258
-          C875 258 760 225 760 153
+          M1090 192
+          C1120 232 1095 258 995 258
+          C875 258 748 230 748 153
         "/>
 
     </circle>
+
+
+    <!-- ===================================================== -->
+    <!-- GRAPH PARTICLES -->
+    <!-- ===================================================== -->
+
+    <g fill="#5FE8D5">
+
+      <circle cx="805" cy="106" r="1.3">
+        <animate
+          attributeName="opacity"
+          values="0.1;0.8;0.1"
+          dur="2s"
+          repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="815" cy="177" r="1.2">
+        <animate
+          attributeName="opacity"
+          values="0.8;0.1;0.8"
+          dur="2.6s"
+          repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="920" cy="108" r="1.2">
+        <animate
+          attributeName="opacity"
+          values="0.15;0.9;0.15"
+          dur="1.8s"
+          repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="920" cy="175" r="1.2">
+        <animate
+          attributeName="opacity"
+          values="0.8;0.15;0.8"
+          dur="2.3s"
+          repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="1030" cy="110" r="1.2">
+        <animate
+          attributeName="opacity"
+          values="0.1;0.8;0.1"
+          dur="2.1s"
+          repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="1035" cy="175" r="1.2">
+        <animate
+          attributeName="opacity"
+          values="0.7;0.1;0.7"
+          dur="2.5s"
+          repeatCount="indefinite"/>
+      </circle>
+
+    </g>
 
   </g>
 
 
   <!-- ========================================================= -->
-  <!-- RIGHT SIDE MICRO LABEL -->
+  <!-- GRAPH LABELS -->
   <!-- ========================================================= -->
 
   <g
     font-family="'SF Mono','JetBrains Mono','Fira Code',Menlo,Consolas,monospace"
-    font-size="10"
-    letter-spacing="1.5">
+    font-size="9"
+    letter-spacing="1.3">
 
     <text
-      x="1005"
-      y="128"
-      fill="#53607E">
-      AGENT
+      x="725"
+      y="120"
+      fill="#596581">
+      INPUT
     </text>
 
     <text
-      x="1005"
-      y="160"
+      x="835"
+      y="55"
+      fill="#596581">
+      REASON
+    </text>
+
+    <text
+      x="835"
+      y="229"
+      fill="#596581">
+      PLAN
+    </text>
+
+    <text
+      x="1002"
+      y="125"
       fill="#2DE1C2">
-      ORCHESTRATOR
+      ORCHESTRATE
+    </text>
+
+    <text
+      x="1060"
+      y="75"
+      fill="#596581">
+      ACT
+    </text>
+
+    <text
+      x="1060"
+      y="217"
+      fill="#596581">
+      RECOVER
     </text>
 
   </g>
@@ -530,7 +925,7 @@
     width="520"
     height="1"
     fill="url(#accent)"
-    opacity="0.35">
+    opacity="0.30">
 
     <animate
       attributeName="x"
@@ -539,5 +934,56 @@
       repeatCount="indefinite"/>
 
   </rect>
+
+
+  <!-- ========================================================= -->
+  <!-- SMALL DECORATIVE SIGNAL -->
+  <!-- ========================================================= -->
+
+  <g opacity="0.5">
+
+    <circle
+      cx="1160"
+      cy="35"
+      r="2"
+      fill="#2DE1C2">
+
+      <animate
+        attributeName="opacity"
+        values="0.2;1;0.2"
+        dur="1.5s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <circle
+      cx="1170"
+      cy="35"
+      r="2"
+      fill="#8B7CFF">
+
+      <animate
+        attributeName="opacity"
+        values="1;0.2;1"
+        dur="1.8s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+    <circle
+      cx="1180"
+      cy="35"
+      r="2"
+      fill="#5FE8D5">
+
+      <animate
+        attributeName="opacity"
+        values="0.3;1;0.3"
+        dur="2.1s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+  </g>
 
 </svg>
